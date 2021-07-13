@@ -1,0 +1,25 @@
+{
+    "name": "EpoxyDuino",
+    "version": "0.7.0",
+    "description": "Compile and run Arduino programs natively on Linux, MacOS and FreeBSD.",
+    "keywords": [
+        "unit-test",
+        "mock",
+        "arduino",
+        "native"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bxparks/EpoxyDuino.git"
+    },
+    "authors": {
+        "name": "Brian Park"
+    },
+    "license": "MIT",
+    "platforms": [
+        "native"
+    ],
+    "build": {
+        "includeDir": "cores/epoxy"
+    }
+}
