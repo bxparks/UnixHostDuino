@@ -113,9 +113,6 @@ int unixhostduino_main(int /*argc*/, char** /*argv*/) {
 
   setup();
   while (true) {
-    char c = '\0';
-    read(STDIN_FILENO, &c, 1);
-    if (c) Serial.insertChar(c);
     loop();
     yield();
   }
